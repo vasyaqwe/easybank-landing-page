@@ -1,0 +1,45 @@
+:root {
+    --clr-dark-blue: hsl(233, 26%, 24%);
+    --clr-green: hsl(136, 65%, 51%);
+    --clr-light-blue: hsl(192, 70%, 51%);
+
+    --clr-neutral-400: hsl(233, 8%, 62%);
+    --clr-neutral-200: hsl(220, 16%, 96%);
+    --clr-neutral-100: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: var(--clr-dark-blue);
+}
+
+.container {
+    width: min(87.5%, 75em);
+    margin-inline: auto;
+}
+
+.dim {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg,
+            rgb(0 0 0 / 0.05),
+            rgb(0 0 0 / 0.6),
+        );
+    pointer-events: none;
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+}
+
+p {
+    color: var(--clr-neutral-400);
+}
+
+.logo {
+    width: 160px;
+}
