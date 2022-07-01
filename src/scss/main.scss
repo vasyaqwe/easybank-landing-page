@@ -124,7 +124,9 @@
             max-height: 184px;
         }
 
-        text-align: start;
+        @media(min-width: 1100px) {
+            text-align: start;
+        }
 
         &__articles {
             margin-top: 2rem;

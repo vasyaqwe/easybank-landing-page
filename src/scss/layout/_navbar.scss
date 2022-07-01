@@ -48,9 +48,11 @@
         }
     }
 
+    @media(min-width: 800px) {
 
-    &__item+&__item {
-        margin-left: clamp(3vw, 1rem, 2rem)
+        &__item+&__item {
+            margin-left: clamp(3vw, 1rem, 2rem)
+        }
     }
 }
 
@@ -75,9 +77,3 @@
         opacity: 1;
     }
 }
-
-// @media(min-width: 800px) {
-//     .primary-nav {
-
-//     }
-// }
